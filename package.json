@@ -1,0 +1,51 @@
+{
+  "name": "three-twenty",
+  "version": "1.0.0",
+  "description": "A ts-react library with components for making a 320px width website",
+  "main": "index.js",
+  "author": "Hunter Kievet",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.common.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^16.9.1",
+    "@types/react-router-dom": "^5.1.0",
+    "@types/sanitize-html": "^1.20.2",
+    "@types/color": "^3.0.1",
+    "@types/markdown-to-jsx": "^6.9.1",
+    "@types/react": "^16.9.5",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "markdown-loader": "^5.1.0",
+    "node-sass": "^4.12.0",
+    "raw-loader": "^4.0.0",
+    "sass-loader": "^8.0.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.1",
+    "webpack-bundle-analyzer": "^3.5.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "@sanity/client": "^0.147.3",
+    "color": "^3.1.2",
+    "copy-webpack-plugin": "^5.0.4",
+    "history": "^4.10.1",
+    "markdown-to-jsx": "^6.11.0",
+    "react": "^16.10.2",
+    "react-async-hook": "^3.6.1",
+    "react-dom": "^16.10.2",
+    "react-inlinesvg": "^1.1.7",
+    "react-router-dom": "^5.1.2",
+    "sanitize-html": "^1.20.1"
+  }
+}
