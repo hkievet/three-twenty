@@ -1,4 +1,3 @@
-<Spacer />;
 import * as React from "react";
 import ThreeTwentyContainer from "../containers/ThreeTwentyContainer";
 import { Global, css, jsx } from "@emotion/core";

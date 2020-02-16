@@ -1,10 +1,10 @@
 //https://github.com/HarveyD/react-component-library/blob/master/rollup.config.js
 
 import typescript from "rollup-plugin-typescript2";
-import sass from "rollup-plugin-sass";
 import commonjs from "rollup-plugin-commonjs";
 import external from "rollup-plugin-peer-deps-external";
 import resolve from "rollup-plugin-node-resolve";
+import copy from "rollup-plugin-copy";
 
 import pkg from "./package.json";
 
@@ -50,8 +50,9 @@ export default {
         "node_modules/react-dom/index.js": ["render"]
       }
     }),
-    sass({
-      insert: true
+    copy({
+      targets: [{ src: ["src/public_fonts/**/*"], dest: "build/assets" }],
+      flatten: false
     })
   ]
 };
