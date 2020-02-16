@@ -7,7 +7,7 @@ const RawLoader = require("raw-loader");
 
 module.exports = {
   entry: {
-    main: "./src/index.tsx"
+    main: "./src/demo.tsx"
   },
   output: {
     // `filename` provides a template for naming your bundles (remember to use `[name]`)

@@ -1,6 +1,3 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
+import ThreeTwentyContainer from "./components/containers/ThreeTwentyContainer";
 
-import ThreeTwentyApp from "./components/ThreeTwentyApp";
-
-ReactDOM.render(<ThreeTwentyApp />, document.getElementById("app-container"));
+export { ThreeTwentyContainer };

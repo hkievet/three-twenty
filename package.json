@@ -1,21 +1,27 @@
 {
   "name": "three-twenty",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A ts-react library with components for making a 320px width website",
-  "main": "index.js",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "jsnext:main": "build/index.es.js",
+  "files": [
+    "build"
+  ],
   "author": "Hunter Kievet",
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.common.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "rollup -c",
+    "build:styleguide": "webpack --config webpack.prod.js"
   },
   "devDependencies": {
-    "@types/react-dom": "^16.9.1",
-    "@types/react-router-dom": "^5.1.0",
-    "@types/sanitize-html": "^1.20.2",
     "@types/color": "^3.0.1",
     "@types/markdown-to-jsx": "^6.9.1",
     "@types/react": "^16.9.5",
+    "@types/react-dom": "^16.9.1",
+    "@types/react-router-dom": "^5.1.0",
+    "@types/sanitize-html": "^1.20.2",
     "css-loader": "^3.2.0",
     "file-loader": "^4.2.0",
     "html-loader": "^0.5.5",
@@ -23,6 +29,12 @@
     "markdown-loader": "^5.1.0",
     "node-sass": "^4.12.0",
     "raw-loader": "^4.0.0",
+    "rollup": "^1.31.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.26.0",
     "sass-loader": "^8.0.0",
     "source-map-loader": "^0.2.4",
     "style-loader": "^1.0.0",
