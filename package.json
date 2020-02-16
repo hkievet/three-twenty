@@ -1,6 +1,6 @@
 {
   "name": "three-twenty",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "A ts-react library with components for making a 320px width website",
   "main": "build/index.js",
   "module": "build/index.es.js",

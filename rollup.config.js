@@ -38,6 +38,7 @@ export default {
       include: ["node_modules/**"],
       exclude: ["**/*.stories.js"],
       namedExports: {
+        "node_modules/react-is/index.js": ["isValidElementType"],
         "node_modules/react/index.js": [
           "Children",
           "Component",

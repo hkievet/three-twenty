@@ -1,3 +1,1 @@
-import ThreeTwentyContainer from "./components/containers/ThreeTwentyContainer";
-
-export { ThreeTwentyContainer };
+export * from "./components/";

@@ -1,4 +1,4 @@
-import * as Color from "color";
+export const Color = require("color");
 
 export const makeColors = (
   lc: string,

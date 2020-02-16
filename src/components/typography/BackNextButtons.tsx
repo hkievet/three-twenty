@@ -1,7 +1,7 @@
 import * as React from "react";
 import ThreeTwentyLink from "./ThreeTwentyLink";
 import StringDisplay from "../primitives-shapes/StringDisplay";
-import HalfColumnContainer from "../containers/HalfColumnContainer.tsx";
+import HalfColumnContainer from "../containers/HalfColumnContainer";
 
 export interface IBackNextButtonsProps {
   backTo?: string;
