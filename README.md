@@ -12,6 +12,10 @@ I wanted to created a collection of UI elements that I can easily reuse for my p
 
 `yarn add three-twenty`
 
+## View Examples
+
+If you clone this repo, you can run `yarn && yarn start` and some demo pages will be served in your web browser via webpack.
+
 ## Adding the Noah font:
 
 `import "../node_modules/three-twenty/build/assets/public_fonts/noah.scss";`
